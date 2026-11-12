@@ -1,0 +1,8 @@
+{
+  "name": "fusionproxy-playwright-example",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.45.0"
+  }
+}
