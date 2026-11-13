@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://fusionproxy.net/?utm_source=github&utm_medium=playwright-proxy">
+  <a href="https://fusionproxy.net/?utm_source=github&utm_medium=referral&utm_campaign=playwright-proxy">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FusionProxies/.github/main/assets/logo-on-dark.png">
       <img src="https://raw.githubusercontent.com/FusionProxies/.github/main/assets/logo-on-light.png" alt="Fusion Proxy" height="52">
@@ -9,7 +9,7 @@
 
 # Playwright with residential proxies
 
-How to use [Fusion Proxy](https://fusionproxy.net/?utm_source=github&utm_medium=playwright-proxy) residential proxies in Playwright, in Python and Node.js: authenticated proxy, country targeting, and one sticky IP per browser context.
+How to use [Fusion Proxy](https://fusionproxy.net/?utm_source=github&utm_medium=referral&utm_campaign=playwright-proxy) residential proxies in Playwright, in Python and Node.js: authenticated proxy, country targeting, and one sticky IP per browser context.
 
 ## Why one session per context
 
@@ -23,7 +23,7 @@ export FUSION_PASS="your_password"
 export FUSION_COUNTRY="us"   # optional, two-letter country code
 ```
 
-Your username and password are in the [dashboard](https://dashboard.fusionproxy.net/?utm_source=github&utm_medium=playwright-proxy).
+Your username and password are in the [dashboard](https://dashboard.fusionproxy.net/?utm_source=github&utm_medium=referral&utm_campaign=playwright-proxy).
 
 ### Python
 
@@ -61,7 +61,7 @@ context = browser.new_context(proxy={
 | `-sessid-4821937` | Session ID. The same ID keeps the same IP; a new ID gets a new IP |
 | `-sessTime-600s` | How long the session holds its IP, 1 to 120 minutes, in seconds |
 
-All options are explained in the [endpoint generator guide](https://fusionproxy.net/guides/endpoint-generator?utm_source=github&utm_medium=playwright-proxy).
+All options are explained in the [endpoint generator guide](https://fusionproxy.net/guides/endpoint-generator?utm_source=github&utm_medium=referral&utm_campaign=playwright-proxy).
 
 ## Notes
 
@@ -72,8 +72,8 @@ All options are explained in the [endpoint generator guide](https://fusionproxy.
 ## More
 
 - [Code examples in 8 languages](https://github.com/FusionProxies/fusionproxy)
-- [Puppeteer version](https://github.com/FusionProxies/puppeteer-proxy)
-- [Residential proxies](https://fusionproxy.net/proxies/residential?utm_source=github&utm_medium=playwright-proxy) · [Pricing](https://fusionproxy.net/pricing?utm_source=github&utm_medium=playwright-proxy) · [Free trial](https://fusionproxy.net/free-trial?utm_source=github&utm_medium=playwright-proxy)
+- [Puppeteer version](https://github.com/FusionProxies/puppeteer-proxy) and [Selenium version](https://github.com/FusionProxies/selenium-proxy)
+- [Residential proxies](https://fusionproxy.net/proxies/residential?utm_source=github&utm_medium=referral&utm_campaign=playwright-proxy) · [Pricing](https://fusionproxy.net/pricing?utm_source=github&utm_medium=referral&utm_campaign=playwright-proxy) · [Free trial](https://fusionproxy.net/free-trial?utm_source=github&utm_medium=referral&utm_campaign=playwright-proxy)
 
 ## License
 
